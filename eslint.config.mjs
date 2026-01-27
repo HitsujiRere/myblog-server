@@ -1,12 +1,11 @@
 // @ts-check
-
 import eslintJs from "@eslint/js";
-import { defineConfig } from "eslint/config";
 import gitignore from "eslint-config-flat-gitignore";
 import eslintConfigPrettier from "eslint-config-prettier";
 import eslintPluginAstro from "eslint-plugin-astro";
-import tsEslint from "typescript-eslint";
+import { defineConfig } from "eslint/config";
 import globals from "globals";
+import tsEslint from "typescript-eslint";
 
 export default defineConfig(
   gitignore(),
