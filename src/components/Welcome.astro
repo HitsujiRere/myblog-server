@@ -4,36 +4,36 @@ import background from "../assets/background.svg";
 ---
 
 <div
-  class='font-["Inter","Roboto","Helvetica_Neue","Arial_Nova","Nimbus_Sans",Arial,sans-serif] h-full flex flex-col md:block'
+  class='flex h-full flex-col font-["Inter","Roboto","Helvetica_Neue","Arial_Nova","Nimbus_Sans",Arial,sans-serif] md:block'
 >
   <img
     src={background.src}
     alt=""
     fetchpriority="high"
-    class="fixed top-0 left-0 w-full h-full -z-10 blur-[100px]"
+    class="fixed top-0 left-0 -z-10 h-full w-full blur-[100px]"
   />
 
-  <main class="h-full flex justify-center">
+  <main class="flex h-full justify-center">
     <section
-      class="flex flex-col justify-center items-start p-4 pt-[10%] md:pt-4"
+      class="flex flex-col items-start justify-center p-4 pt-[10%] md:pt-4"
     >
       <a href="https://astro.build">
         <img src={astroLogo.src} width="115" height="48" alt="Astro Homepage" />
       </a>
 
-      <h1 class="text-[22px] mt-[0.25em] leading-[1.5] md:leading-normal">
+      <h1 class="mt-[0.25em] text-[22px] leading-[1.5] md:leading-normal">
         To get started, open the <code
-          class="inline-block rounded-lg border border-transparent p-[6px_8px] bg-[linear-gradient(66.77deg,#f3cddd_0%,#f5cee7_100%)_padding-box,linear-gradient(155deg,#d83333_0%,#f041ff_18%,#f5cee7_45%)_border-box]"
+          class="inline-block rounded-lg border border-transparent bg-[linear-gradient(66.77deg,#f3cddd_0%,#f5cee7_100%)_padding-box,linear-gradient(155deg,#d83333_0%,#f041ff_18%,#f5cee7_45%)_border-box] p-[6px_8px]"
         >
           <pre
-            class='font-["ui-monospace","Cascadia_Code","Source_Code_Pro",Menlo,Consolas,"DejaVu_Sans_Mono",monospace] font-normal m-0 bg-[linear-gradient(14deg,#d83333_0%,#f041ff_100%)] bg-clip-text text-transparent'>src/pages</pre>
+            class='m-0 bg-[linear-gradient(14deg,#d83333_0%,#f041ff_100%)] bg-clip-text font-["ui-monospace","Cascadia_Code","Source_Code_Pro",Menlo,Consolas,"DejaVu_Sans_Mono",monospace] font-normal text-transparent'>src/pages</pre>
         </code> directory in your project.
       </h1>
 
-      <section class="flex gap-4 flex-wrap">
+      <section class="flex flex-wrap gap-4">
         <a
           href="https://docs.astro.build"
-          class="flex items-center px-3 py-[10px] md:px-[18px] md:py-[14px] text-white bg-[linear-gradient(83.21deg,#3245ff_0%,#bc52ee_100%)] shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12),inset_0_-2px_0_rgba(0,0,0,0.24)] rounded-[10px] no-underline transition-all hover:text-[#e6e6e6] hover:shadow-none"
+          class="flex items-center rounded-[10px] bg-[linear-gradient(83.21deg,#3245ff_0%,#bc52ee_100%)] px-3 py-[10px] text-white no-underline shadow-[inset_0_0_0_1px_rgba(255,255,255,0.12),inset_0_-2px_0_rgba(0,0,0,0.24)] transition-all hover:text-[#e6e6e6] hover:shadow-none md:px-[18px] md:py-[14px]"
         >
           Read our docs
         </a>
@@ -45,7 +45,7 @@ import background from "../assets/background.svg";
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 127.14 96.36"
-            class="h-[1em] ml-2"
+            class="ml-2 h-[1em]"
           >
             <path
               fill="currentColor"
@@ -58,7 +58,7 @@ import background from "../assets/background.svg";
 
     <a
       href="https://astro.build/blog/astro-5/"
-      class="fixed md:absolute bottom-10 left-4 right-4 md:bottom-4 md:right-4 md:left-auto max-w-full md:max-w-[300px] p-4 bg-white border border-white rounded-2xl no-underline backdrop-blur-[50px] transition-colors hover:bg-white/55 hidden sm:max-h-[368px]:hidden min-[369px]:block"
+      class="sm:max-h-[368px]:hidden fixed right-4 bottom-10 left-4 hidden max-w-full rounded-2xl border border-white bg-white p-4 no-underline backdrop-blur-[50px] transition-colors hover:bg-white/55 min-[369px]:block md:absolute md:right-4 md:bottom-4 md:left-auto md:max-w-[300px]"
     >
       <svg
         width="32"
@@ -71,10 +71,10 @@ import background from "../assets/background.svg";
           d="M24.667 12c1.333 1.414 2 3.192 2 5.334 0 4.62-4.934 5.7-7.334 12C18.444 28.567 18 27.456 18 26c0-4.642 6.667-7.053 6.667-14Zm-5.334-5.333c1.6 1.65 2.4 3.43 2.4 5.333 0 6.602-8.06 7.59-6.4 17.334C13.111 27.787 12 25.564 12 22.666c0-4.434 7.333-8 7.333-16Zm-6-5.333C15.111 3.555 16 5.556 16 7.333c0 8.333-11.333 10.962-5.333 22-3.488-.774-6-4-6-8 0-8.667 8.666-10 8.666-20Z"
           fill="#111827"></path>
       </svg>
-      <h2 class="m-0 mb-4 font-normal text-[#111827] text-xl">
+      <h2 class="m-0 mb-4 text-xl font-normal text-[#111827]">
         What's New in Astro 5.0?
       </h2>
-      <p class="text-[#4b5563] text-base leading-6 tracking-[-0.006em] m-0">
+      <p class="m-0 text-base leading-6 tracking-[-0.006em] text-[#4b5563]">
         From content layers to server islands, click to learn more about the new
         features and improvements in Astro 5.0
       </p>
