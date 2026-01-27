@@ -12,22 +12,25 @@
     "check": "tsc --noEmit 6& astro check && prettier . --check && eslint ."
   },
   "dependencies": {
-    "astro": "^5.16.15",
-    "globals": "^17.1.0"
+    "astro": "^5.16.15"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.6",
     "@eslint/js": "^9.39.2",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "@tailwindcss/vite": "^4.1.18",
     "@typescript-eslint/parser": "^8.54.0",
     "eslint": "^9.39.2",
     "eslint-config-flat-gitignore": "^2.1.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-astro": "^1.5.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
+    "globals": "^17.1.0",
     "prettier": "^3.8.1",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.54.0"
   }
