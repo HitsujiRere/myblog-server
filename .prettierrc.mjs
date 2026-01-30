@@ -4,9 +4,9 @@
 export default {
   plugins: [
     "prettier-plugin-astro",
+    "prettier-plugin-svelte",
     "@ianvs/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss",
-    "prettier-plugin-svelte",
   ],
   overrides: [
     {
