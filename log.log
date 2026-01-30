@@ -1,0 +1,394 @@
+
+> myblog-server@0.0.1 lint /home/hitsuji/myblog/myblog-server
+> eslint . src/components/Counter.svelte --debug
+
+2026-01-30T03:38:28.711Z eslint:cli CLI args: [ '.', 'src/components/Counter.svelte', '--debug' ]
+2026-01-30T03:38:28.712Z eslint:cli Using flat config? true
+2026-01-30T03:38:28.719Z eslint:cli Running on files
+2026-01-30T03:38:28.720Z eslint:eslint Using config loader LegacyConfigLoader
+2026-01-30T03:38:28.720Z eslint:eslint Using file patterns: .,src/components/Counter.svelte
+2026-01-30T03:38:28.720Z eslint:eslint Deleting cache file at /home/hitsuji/myblog/myblog-server/.eslintcache
+2026-01-30T03:38:28.722Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:28.723Z eslint:config-loader Searching for eslint.config.js
+2026-01-30T03:38:28.731Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:28.731Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:28.731Z eslint:config-loader Calculating config array from config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:28.732Z eslint:config-loader Loading config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:28.732Z eslint:config-loader Loading config from /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:28.732Z eslint:config-loader Config file URL is file:///home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.379Z eslint:rules Loading rule 'no-inner-declarations' (remaining=291)
+2026-01-30T03:38:29.387Z eslint:rules Loading rule 'prefer-const' (remaining=290)
+2026-01-30T03:38:29.484Z eslint:rules Loading rule 'consistent-return' (remaining=289)
+2026-01-30T03:38:29.491Z eslint:rules Loading rule 'dot-notation' (remaining=288)
+2026-01-30T03:38:29.494Z eslint:rules Loading rule 'init-declarations' (remaining=287)
+2026-01-30T03:38:29.494Z eslint:rules Loading rule 'max-params' (remaining=286)
+2026-01-30T03:38:29.505Z eslint:rules Loading rule 'no-dupe-class-members' (remaining=285)
+2026-01-30T03:38:29.507Z eslint:rules Loading rule 'no-empty-function' (remaining=284)
+2026-01-30T03:38:29.530Z eslint:rules Loading rule 'no-invalid-this' (remaining=283)
+2026-01-30T03:38:29.531Z eslint:rules Loading rule 'no-loop-func' (remaining=282)
+2026-01-30T03:38:29.532Z eslint:rules Loading rule 'no-loss-of-precision' (remaining=281)
+2026-01-30T03:38:29.532Z eslint:rules Loading rule 'no-magic-numbers' (remaining=280)
+2026-01-30T03:38:29.547Z eslint:rules Loading rule 'no-restricted-imports' (remaining=279)
+2026-01-30T03:38:29.587Z eslint:rules Loading rule 'no-unused-expressions' (remaining=278)
+2026-01-30T03:38:29.590Z eslint:rules Loading rule 'no-useless-constructor' (remaining=277)
+2026-01-30T03:38:29.605Z eslint:rules Loading rule 'prefer-destructuring' (remaining=276)
+2026-01-30T03:38:29.678Z eslint:config-loader Config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs is not empty
+2026-01-30T03:38:29.697Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.astro
+2026-01-30T03:38:29.697Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.699Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.git
+2026-01-30T03:38:29.699Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.699Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/.gitignore
+2026-01-30T03:38:29.699Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.gitignore
+2026-01-30T03:38:29.699Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.704Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/.prettierignore
+2026-01-30T03:38:29.704Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.prettierignore
+2026-01-30T03:38:29.704Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.705Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.705Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.705Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.731Z eslint:rules Loading rule 'constructor-super' (remaining=275)
+2026-01-30T03:38:29.731Z eslint:rules Loading rule 'for-direction' (remaining=274)
+2026-01-30T03:38:29.732Z eslint:rules Loading rule 'getter-return' (remaining=273)
+2026-01-30T03:38:29.732Z eslint:rules Loading rule 'no-async-promise-executor' (remaining=272)
+2026-01-30T03:38:29.733Z eslint:rules Loading rule 'no-case-declarations' (remaining=271)
+2026-01-30T03:38:29.733Z eslint:rules Loading rule 'no-class-assign' (remaining=270)
+2026-01-30T03:38:29.733Z eslint:rules Loading rule 'no-compare-neg-zero' (remaining=269)
+2026-01-30T03:38:29.734Z eslint:rules Loading rule 'no-cond-assign' (remaining=268)
+2026-01-30T03:38:29.734Z eslint:rules Loading rule 'no-const-assign' (remaining=267)
+2026-01-30T03:38:29.736Z eslint:rules Loading rule 'no-constant-binary-expression' (remaining=266)
+2026-01-30T03:38:29.736Z eslint:rules Loading rule 'no-constant-condition' (remaining=265)
+2026-01-30T03:38:29.737Z eslint:rules Loading rule 'no-control-regex' (remaining=264)
+2026-01-30T03:38:29.738Z eslint:rules Loading rule 'no-debugger' (remaining=263)
+2026-01-30T03:38:29.738Z eslint:rules Loading rule 'no-delete-var' (remaining=262)
+2026-01-30T03:38:29.738Z eslint:rules Loading rule 'no-dupe-args' (remaining=261)
+2026-01-30T03:38:29.747Z eslint:rules Loading rule 'no-dupe-else-if' (remaining=260)
+2026-01-30T03:38:29.747Z eslint:rules Loading rule 'no-dupe-keys' (remaining=259)
+2026-01-30T03:38:29.747Z eslint:rules Loading rule 'no-duplicate-case' (remaining=258)
+2026-01-30T03:38:29.748Z eslint:rules Loading rule 'no-empty' (remaining=257)
+2026-01-30T03:38:29.748Z eslint:rules Loading rule 'no-empty-character-class' (remaining=256)
+2026-01-30T03:38:29.748Z eslint:rules Loading rule 'no-empty-pattern' (remaining=255)
+2026-01-30T03:38:29.749Z eslint:rules Loading rule 'no-empty-static-block' (remaining=254)
+2026-01-30T03:38:29.749Z eslint:rules Loading rule 'no-ex-assign' (remaining=253)
+2026-01-30T03:38:29.749Z eslint:rules Loading rule 'no-extra-boolean-cast' (remaining=252)
+2026-01-30T03:38:29.749Z eslint:rules Loading rule 'no-fallthrough' (remaining=251)
+2026-01-30T03:38:29.750Z eslint:rules Loading rule 'no-func-assign' (remaining=250)
+2026-01-30T03:38:29.750Z eslint:rules Loading rule 'no-global-assign' (remaining=249)
+2026-01-30T03:38:29.750Z eslint:rules Loading rule 'no-import-assign' (remaining=248)
+2026-01-30T03:38:29.750Z eslint:rules Loading rule 'no-invalid-regexp' (remaining=247)
+2026-01-30T03:38:29.751Z eslint:rules Loading rule 'no-irregular-whitespace' (remaining=246)
+2026-01-30T03:38:29.751Z eslint:rules Loading rule 'no-misleading-character-class' (remaining=245)
+2026-01-30T03:38:29.752Z eslint:rules Loading rule 'no-new-native-nonconstructor' (remaining=244)
+2026-01-30T03:38:29.753Z eslint:rules Loading rule 'no-nonoctal-decimal-escape' (remaining=243)
+2026-01-30T03:38:29.753Z eslint:rules Loading rule 'no-obj-calls' (remaining=242)
+2026-01-30T03:38:29.753Z eslint:rules Loading rule 'no-octal' (remaining=241)
+2026-01-30T03:38:29.753Z eslint:rules Loading rule 'no-prototype-builtins' (remaining=240)
+2026-01-30T03:38:29.754Z eslint:rules Loading rule 'no-redeclare' (remaining=239)
+2026-01-30T03:38:29.754Z eslint:rules Loading rule 'no-regex-spaces' (remaining=238)
+2026-01-30T03:38:29.754Z eslint:rules Loading rule 'no-self-assign' (remaining=237)
+2026-01-30T03:38:29.754Z eslint:rules Loading rule 'no-setter-return' (remaining=236)
+2026-01-30T03:38:29.754Z eslint:rules Loading rule 'no-shadow-restricted-names' (remaining=235)
+2026-01-30T03:38:29.755Z eslint:rules Loading rule 'no-sparse-arrays' (remaining=234)
+2026-01-30T03:38:29.755Z eslint:rules Loading rule 'no-this-before-super' (remaining=233)
+2026-01-30T03:38:29.755Z eslint:rules Loading rule 'no-undef' (remaining=232)
+2026-01-30T03:38:29.755Z eslint:rules Loading rule 'no-unexpected-multiline' (remaining=231)
+2026-01-30T03:38:29.756Z eslint:rules Loading rule 'no-unreachable' (remaining=230)
+2026-01-30T03:38:29.756Z eslint:rules Loading rule 'no-unsafe-finally' (remaining=229)
+2026-01-30T03:38:29.756Z eslint:rules Loading rule 'no-unsafe-negation' (remaining=228)
+2026-01-30T03:38:29.756Z eslint:rules Loading rule 'no-unsafe-optional-chaining' (remaining=227)
+2026-01-30T03:38:29.756Z eslint:rules Loading rule 'no-unused-labels' (remaining=226)
+2026-01-30T03:38:29.757Z eslint:rules Loading rule 'no-unused-private-class-members' (remaining=225)
+2026-01-30T03:38:29.757Z eslint:rules Loading rule 'no-unused-vars' (remaining=224)
+2026-01-30T03:38:29.757Z eslint:rules Loading rule 'no-useless-backreference' (remaining=223)
+2026-01-30T03:38:29.758Z eslint:rules Loading rule 'no-useless-catch' (remaining=222)
+2026-01-30T03:38:29.758Z eslint:rules Loading rule 'no-useless-escape' (remaining=221)
+2026-01-30T03:38:29.759Z eslint:rules Loading rule 'no-with' (remaining=220)
+2026-01-30T03:38:29.759Z eslint:rules Loading rule 'require-yield' (remaining=219)
+2026-01-30T03:38:29.759Z eslint:rules Loading rule 'use-isnan' (remaining=218)
+2026-01-30T03:38:29.760Z eslint:rules Loading rule 'valid-typeof' (remaining=217)
+2026-01-30T03:38:29.760Z eslint:rules Loading rule 'no-array-constructor' (remaining=216)
+2026-01-30T03:38:29.760Z eslint:rules Loading rule 'curly' (remaining=215)
+2026-01-30T03:38:29.761Z eslint:rules Loading rule 'no-spaced-func' (remaining=214)
+2026-01-30T03:38:29.761Z eslint:rules Loading rule 'indent-legacy' (remaining=213)
+2026-01-30T03:38:29.762Z eslint:rules Loading rule 'array-bracket-newline' (remaining=212)
+2026-01-30T03:38:29.762Z eslint:rules Loading rule 'array-bracket-spacing' (remaining=211)
+2026-01-30T03:38:29.762Z eslint:rules Loading rule 'array-element-newline' (remaining=210)
+2026-01-30T03:38:29.763Z eslint:rules Loading rule 'arrow-parens' (remaining=209)
+2026-01-30T03:38:29.763Z eslint:rules Loading rule 'arrow-spacing' (remaining=208)
+2026-01-30T03:38:29.763Z eslint:rules Loading rule 'block-spacing' (remaining=207)
+2026-01-30T03:38:29.763Z eslint:rules Loading rule 'brace-style' (remaining=206)
+2026-01-30T03:38:29.764Z eslint:rules Loading rule 'comma-dangle' (remaining=205)
+2026-01-30T03:38:29.764Z eslint:rules Loading rule 'comma-spacing' (remaining=204)
+2026-01-30T03:38:29.764Z eslint:rules Loading rule 'comma-style' (remaining=203)
+2026-01-30T03:38:29.764Z eslint:rules Loading rule 'computed-property-spacing' (remaining=202)
+2026-01-30T03:38:29.764Z eslint:rules Loading rule 'dot-location' (remaining=201)
+2026-01-30T03:38:29.765Z eslint:rules Loading rule 'eol-last' (remaining=200)
+2026-01-30T03:38:29.765Z eslint:rules Loading rule 'func-call-spacing' (remaining=199)
+2026-01-30T03:38:29.765Z eslint:rules Loading rule 'function-call-argument-newline' (remaining=198)
+2026-01-30T03:38:29.765Z eslint:rules Loading rule 'function-paren-newline' (remaining=197)
+2026-01-30T03:38:29.766Z eslint:rules Loading rule 'generator-star-spacing' (remaining=196)
+2026-01-30T03:38:29.766Z eslint:rules Loading rule 'implicit-arrow-linebreak' (remaining=195)
+2026-01-30T03:38:29.766Z eslint:rules Loading rule 'indent' (remaining=194)
+2026-01-30T03:38:29.767Z eslint:rules Loading rule 'jsx-quotes' (remaining=193)
+2026-01-30T03:38:29.767Z eslint:rules Loading rule 'key-spacing' (remaining=192)
+2026-01-30T03:38:29.768Z eslint:rules Loading rule 'keyword-spacing' (remaining=191)
+2026-01-30T03:38:29.768Z eslint:rules Loading rule 'linebreak-style' (remaining=190)
+2026-01-30T03:38:29.768Z eslint:rules Loading rule 'lines-around-comment' (remaining=189)
+2026-01-30T03:38:29.769Z eslint:rules Loading rule 'max-len' (remaining=188)
+2026-01-30T03:38:29.769Z eslint:rules Loading rule 'max-statements-per-line' (remaining=187)
+2026-01-30T03:38:29.769Z eslint:rules Loading rule 'multiline-ternary' (remaining=186)
+2026-01-30T03:38:29.770Z eslint:rules Loading rule 'new-parens' (remaining=185)
+2026-01-30T03:38:29.770Z eslint:rules Loading rule 'newline-per-chained-call' (remaining=184)
+2026-01-30T03:38:29.770Z eslint:rules Loading rule 'no-confusing-arrow' (remaining=183)
+2026-01-30T03:38:29.770Z eslint:rules Loading rule 'no-extra-parens' (remaining=182)
+2026-01-30T03:38:29.771Z eslint:rules Loading rule 'no-extra-semi' (remaining=181)
+2026-01-30T03:38:29.771Z eslint:rules Loading rule 'no-floating-decimal' (remaining=180)
+2026-01-30T03:38:29.771Z eslint:rules Loading rule 'no-mixed-operators' (remaining=179)
+2026-01-30T03:38:29.771Z eslint:rules Loading rule 'no-mixed-spaces-and-tabs' (remaining=178)
+2026-01-30T03:38:29.772Z eslint:rules Loading rule 'no-multi-spaces' (remaining=177)
+2026-01-30T03:38:29.772Z eslint:rules Loading rule 'no-multiple-empty-lines' (remaining=176)
+2026-01-30T03:38:29.772Z eslint:rules Loading rule 'no-tabs' (remaining=175)
+2026-01-30T03:38:29.772Z eslint:rules Loading rule 'no-trailing-spaces' (remaining=174)
+2026-01-30T03:38:29.772Z eslint:rules Loading rule 'no-whitespace-before-property' (remaining=173)
+2026-01-30T03:38:29.773Z eslint:rules Loading rule 'nonblock-statement-body-position' (remaining=172)
+2026-01-30T03:38:29.773Z eslint:rules Loading rule 'object-curly-newline' (remaining=171)
+2026-01-30T03:38:29.773Z eslint:rules Loading rule 'object-curly-spacing' (remaining=170)
+2026-01-30T03:38:29.773Z eslint:rules Loading rule 'object-property-newline' (remaining=169)
+2026-01-30T03:38:29.774Z eslint:rules Loading rule 'one-var-declaration-per-line' (remaining=168)
+2026-01-30T03:38:29.774Z eslint:rules Loading rule 'operator-linebreak' (remaining=167)
+2026-01-30T03:38:29.774Z eslint:rules Loading rule 'padded-blocks' (remaining=166)
+2026-01-30T03:38:29.774Z eslint:rules Loading rule 'quote-props' (remaining=165)
+2026-01-30T03:38:29.775Z eslint:rules Loading rule 'quotes' (remaining=164)
+2026-01-30T03:38:29.775Z eslint:rules Loading rule 'rest-spread-spacing' (remaining=163)
+2026-01-30T03:38:29.776Z eslint:rules Loading rule 'semi' (remaining=162)
+2026-01-30T03:38:29.776Z eslint:rules Loading rule 'semi-spacing' (remaining=161)
+2026-01-30T03:38:29.776Z eslint:rules Loading rule 'semi-style' (remaining=160)
+2026-01-30T03:38:29.776Z eslint:rules Loading rule 'space-before-blocks' (remaining=159)
+2026-01-30T03:38:29.776Z eslint:rules Loading rule 'space-before-function-paren' (remaining=158)
+2026-01-30T03:38:29.777Z eslint:rules Loading rule 'space-in-parens' (remaining=157)
+2026-01-30T03:38:29.777Z eslint:rules Loading rule 'space-infix-ops' (remaining=156)
+2026-01-30T03:38:29.777Z eslint:rules Loading rule 'space-unary-ops' (remaining=155)
+2026-01-30T03:38:29.777Z eslint:rules Loading rule 'switch-colon-spacing' (remaining=154)
+2026-01-30T03:38:29.777Z eslint:rules Loading rule 'template-curly-spacing' (remaining=153)
+2026-01-30T03:38:29.778Z eslint:rules Loading rule 'template-tag-spacing' (remaining=152)
+2026-01-30T03:38:29.778Z eslint:rules Loading rule 'wrap-iife' (remaining=151)
+2026-01-30T03:38:29.778Z eslint:rules Loading rule 'wrap-regex' (remaining=150)
+2026-01-30T03:38:29.779Z eslint:rules Loading rule 'yield-star-spacing' (remaining=149)
+2026-01-30T03:38:29.812Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.vscode
+2026-01-30T03:38:29.812Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.812Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/.vscode/extensions.json
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.vscode/extensions.json
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.813Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/.vscode/launch.json
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.vscode/launch.json
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.813Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/.vscode/settings.json
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/.vscode/settings.json
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.813Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/README.md
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/README.md
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.813Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.813Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.814Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.814Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/log
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/log
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/node_modules
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.814Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/package.json
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/package.json
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.814Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/pnpm-lock.yaml
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/pnpm-lock.yaml
+2026-01-30T03:38:29.814Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.815Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/public
+2026-01-30T03:38:29.815Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.816Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/public/favicon.ico
+2026-01-30T03:38:29.816Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/public/favicon.ico
+2026-01-30T03:38:29.816Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.816Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/public/favicon.svg
+2026-01-30T03:38:29.816Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/public/favicon.svg
+2026-01-30T03:38:29.816Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.816Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src
+2026-01-30T03:38:29.816Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.817Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/assets
+2026-01-30T03:38:29.817Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.817Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/assets/astro.svg
+2026-01-30T03:38:29.817Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/assets/astro.svg
+2026-01-30T03:38:29.817Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.817Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/assets/background.svg
+2026-01-30T03:38:29.817Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/assets/background.svg
+2026-01-30T03:38:29.817Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.818Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/components
+2026-01-30T03:38:29.818Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.818Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.818Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.818Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.831Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.831Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.831Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.831Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:29.831Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:29.831Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.845Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/layouts
+2026-01-30T03:38:29.845Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.845Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:29.845Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:29.845Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.846Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/pages
+2026-01-30T03:38:29.846Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.846Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:29.846Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:29.846Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.846Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/styles
+2026-01-30T03:38:29.846Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.846Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/src/styles/global.css
+2026-01-30T03:38:29.847Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/src/styles/global.css
+2026-01-30T03:38:29.847Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.847Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:29.847Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:29.847Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.847Z eslint:config-loader Calculating config for file /home/hitsuji/myblog/myblog-server/tsconfig.json
+2026-01-30T03:38:29.847Z eslint:config-loader [Legacy]: Calculating config for /home/hitsuji/myblog/myblog-server/tsconfig.json
+2026-01-30T03:38:29.847Z eslint:config-loader [Legacy]: Using config file /home/hitsuji/myblog/myblog-server/eslint.config.mjs and base path /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.847Z eslint:eslint 9 file(s) found in 1127 ms
+2026-01-30T03:38:29.847Z eslint:eslint Linting in single-thread mode.
+2026-01-30T03:38:29.847Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.848Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server/src/components
+2026-01-30T03:38:29.848Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.848Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.849Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.849Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.849Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.849Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.849Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.849Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server/src/components
+2026-01-30T03:38:29.849Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:29.849Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server/src/components
+2026-01-30T03:38:29.849Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:29.849Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server/src/layouts
+2026-01-30T03:38:29.849Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:29.849Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server/src/pages
+2026-01-30T03:38:29.849Z eslint:config-loader Looking up cached config for /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:29.849Z eslint:config-loader [Legacy]: Looking up cached config for /home/hitsuji/myblog/myblog-server
+2026-01-30T03:38:29.851Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/components/Counter.svelte" read in 3 ms
+2026-01-30T03:38:29.851Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte (pass 1)
+2026-01-30T03:38:29.851Z eslint:linter Verify
+2026-01-30T03:38:29.851Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.852Z eslint:linter Apply the processor: [Module: null prototype] { meta: [Module: null prototype] { name: 'eslint-plugin-svelte', version: '3.14.0' }, postprocess: [Function: postprocess], preprocess: [Function: preprocess], supportsAutofix: true }
+2026-01-30T03:38:29.852Z eslint:linter A code block was found: '(unnamed)'
+2026-01-30T03:38:29.853Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.881Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.881Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.881Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte
+2026-01-30T03:38:29.913Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/src/components/Counter.svelte (pass 1)
+2026-01-30T03:38:29.914Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:29.914Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:29.914Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/components/Counter.svelte" linted in 63 ms
+2026-01-30T03:38:29.914Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/.prettierrc.mjs" read in 65 ms
+2026-01-30T03:38:29.914Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/.prettierrc.mjs (pass 1)
+2026-01-30T03:38:29.914Z eslint:linter Verify
+2026-01-30T03:38:29.914Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.914Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.929Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.929Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.929Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/.prettierrc.mjs
+2026-01-30T03:38:29.937Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/.prettierrc.mjs (pass 1)
+2026-01-30T03:38:29.937Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:29.937Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:29.937Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/.prettierrc.mjs" linted in 23 ms
+2026-01-30T03:38:29.937Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/astro.config.mjs" read in 88 ms
+2026-01-30T03:38:29.937Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/astro.config.mjs (pass 1)
+2026-01-30T03:38:29.937Z eslint:linter Verify
+2026-01-30T03:38:29.937Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.937Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.941Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.942Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.942Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/astro.config.mjs
+2026-01-30T03:38:29.948Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/astro.config.mjs (pass 1)
+2026-01-30T03:38:29.948Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:29.948Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:29.948Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/astro.config.mjs" linted in 11 ms
+2026-01-30T03:38:29.948Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/components/Timer.svelte" read in 99 ms
+2026-01-30T03:38:29.948Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte (pass 1)
+2026-01-30T03:38:29.948Z eslint:linter Verify
+2026-01-30T03:38:29.948Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.949Z eslint:linter Apply the processor: [Module: null prototype] { meta: [Module: null prototype] { name: 'eslint-plugin-svelte', version: '3.14.0' }, postprocess: [Function: postprocess], preprocess: [Function: preprocess], supportsAutofix: true }
+2026-01-30T03:38:29.949Z eslint:linter A code block was found: '(unnamed)'
+2026-01-30T03:38:29.949Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.952Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.952Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.952Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte
+2026-01-30T03:38:29.960Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/src/components/Timer.svelte (pass 1)
+2026-01-30T03:38:29.960Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:29.960Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:29.961Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/components/Timer.svelte" linted in 12 ms
+2026-01-30T03:38:29.961Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/eslint.config.mjs" read in 112 ms
+2026-01-30T03:38:29.961Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/eslint.config.mjs (pass 1)
+2026-01-30T03:38:29.961Z eslint:linter Verify
+2026-01-30T03:38:29.961Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.961Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.966Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.967Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.967Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/eslint.config.mjs
+2026-01-30T03:38:29.973Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/eslint.config.mjs (pass 1)
+2026-01-30T03:38:29.973Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:29.973Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:29.973Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/eslint.config.mjs" linted in 12 ms
+2026-01-30T03:38:29.973Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/components/Welcome.astro" read in 124 ms
+2026-01-30T03:38:29.973Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro (pass 1)
+2026-01-30T03:38:29.973Z eslint:linter Verify
+2026-01-30T03:38:29.973Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:29.973Z eslint:linter Apply the processor: { preprocess: [Function: preprocess], postprocess: [Function: postprocess], supportsAutofix: true, meta: { name: 'astro/client-side-ts', version: '1.5.0' } }
+2026-01-30T03:38:30.046Z eslint:linter A code block was found: '(unnamed)'
+2026-01-30T03:38:30.046Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:30.072Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:30.072Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:30.072Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro
+2026-01-30T03:38:30.094Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/src/components/Welcome.astro (pass 1)
+2026-01-30T03:38:30.094Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:30.094Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:30.094Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/components/Welcome.astro" linted in 121 ms
+2026-01-30T03:38:30.094Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro" read in 245 ms
+2026-01-30T03:38:30.094Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro (pass 1)
+2026-01-30T03:38:30.094Z eslint:linter Verify
+2026-01-30T03:38:30.094Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:30.094Z eslint:linter Apply the processor: { preprocess: [Function: preprocess], postprocess: [Function: postprocess], supportsAutofix: true, meta: { name: 'astro/client-side-ts', version: '1.5.0' } }
+2026-01-30T03:38:30.105Z eslint:linter A code block was found: '(unnamed)'
+2026-01-30T03:38:30.105Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:30.111Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:30.111Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:30.111Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro
+2026-01-30T03:38:30.118Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro (pass 1)
+2026-01-30T03:38:30.118Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:30.118Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:30.118Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/layouts/Layout.astro" linted in 25 ms
+2026-01-30T03:38:30.119Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/pages/index.astro" read in 269 ms
+2026-01-30T03:38:30.119Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/src/pages/index.astro (pass 1)
+2026-01-30T03:38:30.119Z eslint:linter Verify
+2026-01-30T03:38:30.119Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:30.119Z eslint:linter Apply the processor: { preprocess: [Function: preprocess], postprocess: [Function: postprocess], supportsAutofix: true, meta: { name: 'astro/client-side-ts', version: '1.5.0' } }
+2026-01-30T03:38:30.120Z eslint:linter A code block was found: '(unnamed)'
+2026-01-30T03:38:30.120Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:30.123Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:30.123Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:30.123Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/src/pages/index.astro
+2026-01-30T03:38:30.131Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/src/pages/index.astro (pass 1)
+2026-01-30T03:38:30.131Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:30.131Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:30.131Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/src/pages/index.astro" linted in 13 ms
+2026-01-30T03:38:30.132Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/svelte.config.js" read in 282 ms
+2026-01-30T03:38:30.132Z eslint:linter Linting code for /home/hitsuji/myblog/myblog-server/svelte.config.js (pass 1)
+2026-01-30T03:38:30.132Z eslint:linter Verify
+2026-01-30T03:38:30.132Z eslint:linter With flat config: /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:30.132Z eslint:languages:js Parsing: /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:30.133Z eslint:languages:js Parsing successful: /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:30.133Z eslint:languages:js Scope analysis: /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:30.133Z eslint:languages:js Scope analysis successful: /home/hitsuji/myblog/myblog-server/svelte.config.js
+2026-01-30T03:38:30.141Z eslint:linter Generating fixed text for /home/hitsuji/myblog/myblog-server/svelte.config.js (pass 1)
+2026-01-30T03:38:30.141Z eslint:source-code-fixer Applying fixes
+2026-01-30T03:38:30.141Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-01-30T03:38:30.142Z eslint:eslint-helpers File "/home/hitsuji/myblog/myblog-server/svelte.config.js" linted in 10 ms
