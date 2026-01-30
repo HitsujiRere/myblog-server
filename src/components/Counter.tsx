@@ -1,9 +1,9 @@
-import { useCallback, useState } from "react";
+import { useState } from "react";
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
 
-  const increment = useCallback(() => setCount((count) => count + 1), []);
+  const increment = () => setCount((count) => count + 1);
 
   return (
     <button
