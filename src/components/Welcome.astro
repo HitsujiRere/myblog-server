@@ -1,6 +1,7 @@
 ---
 import astroLogo from "../assets/astro.svg";
 import background from "../assets/background.svg";
+import { Counter } from "./Counter";
 ---
 
 <div
@@ -53,6 +54,7 @@ import background from "../assets/background.svg";
             ></path>
           </svg>
         </a>
+        <Counter client:load />
       </section>
     </section>
 
