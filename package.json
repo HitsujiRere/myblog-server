@@ -12,7 +12,9 @@
     "check": "tsc --noEmit && astro check && prettier . --check && eslint ."
   },
   "dependencies": {
-    "astro": "^5.16.15"
+    "@astrojs/svelte": "^7.2.5",
+    "astro": "^5.16.15",
+    "svelte": "^5.49.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.6",
