@@ -12,6 +12,7 @@
     "check": "tsc --noEmit && astro check && prettier . --check && eslint ."
   },
   "dependencies": {
+    "@astrojs/markdoc": "^0.15.10",
     "@astrojs/svelte": "^7.2.5",
     "astro": "^5.16.15",
     "svelte": "^5.49.0"
@@ -20,6 +21,7 @@
     "@astrojs/check": "^0.9.6",
     "@eslint/js": "^9.39.2",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.18",
     "@typescript-eslint/parser": "^8.54.0",
     "eslint": "^9.39.2",

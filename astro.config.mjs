@@ -1,5 +1,6 @@
 // @ts-check
 
+import markdoc from "@astrojs/markdoc";
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
@@ -9,5 +10,5 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [svelte()],
+  integrations: [svelte(), markdoc()],
 });

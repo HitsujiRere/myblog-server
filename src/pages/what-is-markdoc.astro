@@ -1,0 +1,18 @@
+---
+import { getEntry, render } from "astro:content";
+import App from "../layouts/App.astro";
+
+const entry = await getEntry("blog", "what-is-markdoc");
+
+if (!entry) {
+  throw new Error("Entry is not found.");
+}
+
+const { Content } = await render(entry);
+---
+
+<App>
+  <h1>{entry.data.title}</h1>
+
+  <Content />
+</App>

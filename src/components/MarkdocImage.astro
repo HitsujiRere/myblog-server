@@ -1,0 +1,20 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+interface Props {
+  src: ImageMetadata | string;
+  alt: string;
+}
+const { src, alt } = Astro.props;
+---
+
+<p>{JSON.stringify(src)}</p>
+
+{
+  typeof src === "string" ? (
+    <img src={src} alt={alt} />
+  ) : (
+    <Image src={src} alt={alt} />
+  )
+}

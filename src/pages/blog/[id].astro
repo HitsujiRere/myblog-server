@@ -1,0 +1,21 @@
+---
+import { getCollection, render } from "astro:content";
+import App from "../../layouts/App.astro";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("blog");
+  return entries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<App>
+  <h1>{entry.data.title}</h1>
+
+  <Content />
+</App>
