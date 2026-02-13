@@ -9,8 +9,6 @@ interface Props {
 const { src, alt } = Astro.props;
 ---
 
-<p>{JSON.stringify(src)}</p>
-
 {
   typeof src === "string" ? (
     <img src={src} alt={alt} />

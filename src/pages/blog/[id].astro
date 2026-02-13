@@ -11,11 +11,23 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 ---
 
 <App>
   <h1>{entry.data.title}</h1>
 
-  <Content />
+  <ul class="ml-8 list-disc">
+    {
+      headings.map((heading) => (
+        <li>
+          <a href={`#${heading.slug}`}>
+            {heading.text}, {heading.depth}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <Content frontmatter={entry.data} />
 </App>

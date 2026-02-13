@@ -14,5 +14,5 @@ const { Content } = await render(entry);
 <App>
   <h1>{entry.data.title}</h1>
 
-  <Content />
+  <Content frontmatter={entry.data} />
 </App>
